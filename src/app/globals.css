@@ -5,6 +5,10 @@
   --foreground: #171717;
 }
 
+.row-span-3 {
+  grid-row: span 3 / span 3;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
