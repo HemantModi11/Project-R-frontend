@@ -1,6 +1,6 @@
 'use client';
 
-import { useTheme } from '../../providers/ThemeProvider';
+import { useTheme } from '../providers/ThemeProvider';
 import { TrendingUp, TrendingDown } from 'lucide-react';
 import { LucideIcon } from 'lucide-react';
 

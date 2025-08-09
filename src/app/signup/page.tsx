@@ -5,7 +5,7 @@ import axios from 'axios';
 import { useRouter } from 'next/navigation';
 import { Coffee, Utensils, ShoppingCart } from 'lucide-react';
 import { motion } from 'framer-motion';
-import AuthForm from '../components/AuthForm';
+import AuthForm from '../../components/AuthForm';
 
 export default function Signup() {
   const [error, setError] = useState('');

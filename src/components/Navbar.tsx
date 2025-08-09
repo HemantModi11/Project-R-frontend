@@ -20,11 +20,11 @@ export const Navbar = ({ onToggleSidebar, sidebarOpen }: NavbarProps) => {
 
   return (
     <div
-      className={`${
+      className={`fixed top-0 left-0 right-0 z-50 h-18 ${
         isDark
           ? 'bg-slate-900/95 border-slate-700/50'
           : 'bg-white/80 border-gray-200/50'
-      } backdrop-blur-sm shadow-lg border-b sticky top-0 z-50 transition-all duration-300`}
+      } backdrop-blur-sm shadow-lg border-b sticky transition-all duration-300`}
     >
       <div className="flex items-center justify-between px-6 py-4">
         <div className="flex items-center space-x-4">
